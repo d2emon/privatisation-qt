@@ -17,6 +17,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void showMessage();
+    void showCards();
 };
 
 #endif // MAINWINDOW_H
